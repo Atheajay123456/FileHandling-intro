@@ -1,0 +1,77 @@
+package com.crud;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+
+public class Main {
+	public void createFile() throws Exception {
+		File file = new File("ajay");
+//		System.out.println(file.createNewFile());
+//		System.out.println(file.canExecute());
+//		System.out.println(file.canRead());
+//		System.out.println(file.canWrite());
+//		System.out.println(file.delete());
+//		System.out.println(file.exists());
+//		System.out.println(file.getAbsolutePath());
+//		System.out.println(file.getCanonicalPath());
+//		System.out.println(file.getFreeSpace());
+//		System.out.println(file.getName());
+//		System.out.println(file.getParent());
+//		System.out.println(file.getPath());
+//		System.out.println(file.getUsableSpace());
+//		System.out.println(file.getTotalSpace());
+//		System.out.println(file.isAbsolute());
+//		System.out.println(file.isDirectory());
+//		System.out.println(file.isFile());
+//		System.out.println(file.isHidden());
+//		System.out.println(file.length());
+		System.out.println(file.mkdir());
+
+//		if(file.createNewFile()) {
+//			System.out.println("file created");
+//			FileWriter fw = new FileWriter("crud.txt");
+//			fw.write("doing crud operation");
+//			fw.close();
+//		}
+//		else {
+//			System.out.println("file already exist");
+//		}
+//		
+//		
+//	}
+//    public void updateFile() throws Exception{
+//  
+//    	FileWriter fw = new FileWriter("crud.txt" , true);
+//		fw.write("updated");
+//		fw.close();
+//	}
+//    public void deleteFile() {
+//    	File file = new File("crud.txt");
+//    	if(file.delete()) {
+//    		System.out.println("deleted");
+//    	}
+//    	else {
+//    		System.out.println("failed");
+//    	}
+//    	
+//	
+//    }
+//    public void readFile() throws Exception{
+//    	FileReader fr = new FileReader("crud.txt");
+//    	int character;
+//    	while((character = fr.read()) != -1) {
+//    		char ch = (char) character;
+//    		System.out.print(ch);	
+//    	}	
+//    }
+//	public static void main(String[] args) throws Exception{
+//		Main fileobj = new Main();
+//		fileobj.createFile();
+//		fileobj.deleteFile();
+//		fileobj.updateFile();
+//		fileobj.readFile();
+//		
+	}
+
+}
